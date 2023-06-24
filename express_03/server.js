@@ -9,8 +9,8 @@ app.listen(3000, (req, res)=>{
 const mysql = require('mysql');
 const connection =  mysql.createConnection({
     host: 'localhost',
-    user:'root',
-    password:'',
+    user:'user_blog',
+    password:'2ene7Ope3odI84QI3o4I32Xu3up1pe',
     database:'blog'
 })
 
