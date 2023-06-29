@@ -16,7 +16,7 @@ const conexao = mysql.createConnection({
 
 
 // routes
-
+// sintaxe de seleçao no banco de dados 
 app.get('/', (req,res)=>{
     conexao.query('SELECT * FROM users WHERE id = ? AND username = ?', [1,'douglas'] , (error, results)=>{
         if(error){
